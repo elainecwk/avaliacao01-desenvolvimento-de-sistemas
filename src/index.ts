@@ -4,6 +4,7 @@ import atividade02 from './atividade02';
 import atividade03 from './atividade03';
 import atividade04 from './atividade04';
 import atividade05 from './atividade05';
+import atividade06 from './atividade06';
 
 const opcao = leia.keyInSelect([
   'Atividade 01', 
@@ -19,6 +20,7 @@ const atividade = {
   3: atividade03,
   4: atividade04,
   5: atividade05,
+  6: atividade06
 } as { [key: number]: () => void };
 
 atividade[opcao]();
